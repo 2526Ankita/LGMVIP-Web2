@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="1.css" />
+    <script src="1.js" defer></script>
+    <style>
+        body{
+            background-color:#dddbcb;
+            color: #7C1034;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="title">STUDENT ENROLLMENT FORM</div>
+        <div>
+            <div>
+                <form id="form">
+                    <br>
+                    <label for="new">Name</label>
+                    <input type="text" name="name" id="new" /><br><br>
+                    <label for="new8">Email</label>
+                    <input type="email" name="email" id="new8" /><br><br>
+                    <label for="new9">Website</label>
+                    <input type="url" name="url" id="new9" /><br><br>
+                    <label for="new10">Image Link</label>
+                    <input type="text" name="image" id="new10"/><br><br>
+                    Gender
+                    <input type="radio" name="Gender" value="Male" id="new11" />
+                    <label for="new11" class="radio1">Male</label><br><br>
+                    <input type="radio" name="Gender" value="Female" id="new12" />
+                    <label for="new12" class="radio2">Female</label><br><br>
+                    Skills
+                    <input type="checkbox" name="Java" id="new13" class="check11"/>
+                    <label for="new13" class="check1">Java</label>
+                    <input type="checkbox" name="HTML" id="new1" class="check12"/>
+                    <label for="new1" class="check2">HTML</label>
+                    <input type="checkbox" name="CSS" id="new2" class="check13"/>
+                    <label for="new2" class="check3">CSS</label><br>
+                    <br>
+                    <input type="submit" value="Enroll Student" class="submit"/>&nbsp;&nbsp;
+                    <input type="reset" value="Clear" class="clear"/>
+                </form>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h1>Enrolled Students</h1>
+                <div>
+                    <table id="mytable" border="1px solid black">
+                        <thead>
+                            <tr>
+                                <th>Description</th>
+                                <th>Image</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tablebody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

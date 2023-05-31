@@ -1,0 +1,130 @@
+.title{
+    background-color: #008080;
+    font-weight:bold;
+    font-size: 5vh;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color:#dddbcb;
+}
+#form{
+    font-size: 3vh;
+    font-weight:bold;
+    left:5vw;
+    position:absolute;
+}
+.line{
+    width: 0.3vw;
+    height:95vh;
+    left:45vw;
+    position:absolute;
+    background-color:#7C1034;
+}
+.submit{
+    background-color:blue;
+    color: white;
+    font-weight: bold;
+    padding:10px 10px 10px 10px;
+    border-radius: 5%;
+}
+.clear{
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    padding:10px 10px 10px 10px;
+    border-radius: 5%;
+}
+h1{
+    position:absolute;
+    left:65vw;
+    color: #7C1034;
+}
+#mytable{
+    position:absolute;
+    left:55vw;
+    top:25vh;
+}
+#new{
+    position:absolute;
+    left:10vw;
+    border-radius: 10%;   
+}
+.check2{
+    position:absolute;
+    left:16vw;
+}
+.check12{
+    position:absolute;
+    left:14vw;
+}
+.check3{
+    position:absolute;
+    left:23vw;  
+}
+.check13{
+    position:absolute;
+    left:21vw;  
+}
+#new3{
+    position:absolute;
+    left:12vw;   
+}
+#new4{
+    position:absolute;
+    left:12vw;   
+}
+#new5{
+    position:absolute;
+    left:12vw;   
+}
+#new6{
+    position:absolute;
+    left:18vw;   
+}
+#new7{
+    position:absolute;
+    left:25vw;   
+}
+#new8{
+    position:absolute;
+    left:10vw;
+    border-radius: 10%;   
+}
+#new9{
+    position:absolute;
+    left:10vw;
+    border-radius: 10%;   
+}
+#new10{
+    position:absolute;
+    left:10vw;
+    border-radius: 10%;   
+}
+#new11{
+    position:absolute;
+    left:10vw;
+    border-radius: 10%;   
+}
+#new12{
+    position:absolute;
+    left:10vw;
+    border-radius: 10%;   
+}
+.radio1{
+    position:absolute;
+    left:12vw;
+}
+.radio2{
+    position:absolute;
+    left:12vw;
+   
+}
+.check1{
+    position:absolute;
+    left:10vw;
+    border-radius: 10%;   
+}
+.check11{
+    position:absolute;
+    left:8vw;  
+}
+
